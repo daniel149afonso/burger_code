@@ -1,0 +1,72 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{/*BACKGROUNG WEBSITE*/
+    background: url(img/bg.png);
+}
+
+.title, .nav, .card{/*POLICE-----*/
+    font-family: 'Holtwood One SC', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+
+/*--TITLE-------------*/
+.title {
+    color: #e7480f;
+    text-shadow: 2px 2px #ffd301;
+    font-size: 50px;
+    padding: 40px 0px;
+    
+    
+}
+.title i{/*logo fourchette*/
+    color: #ffd301;
+    text-shadow: 0px 0px #ffd301 ;
+    
+}
+
+/*--NAVIGATION----------*/
+.nav li{/*Space between links*/
+    margin-right: 3px; 
+}
+
+/*-MENU-------------*/
+.price{
+    background: #5cb85c;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}   
+.card-title{
+    color: #e7480f!important;
+    font-size: 18px;
+}
+/*--ADMIN---------------*/
+.admin{
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/*ADMIN VIEW.PHP--------*/
+.form-group label{
+    font-weight: 800;
+}
+/*ADMIN INSERT.PHP--------*/
+.help-inline{
+    color: #e7480f;
+    
+}
